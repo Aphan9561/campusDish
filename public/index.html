@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>API Testing Page</title>
+</head>
+
+<body>
+    <section class="diningHalls">
+        <div class="container">
+            <div class="gallery">
+                <div class="dine-card">
+                    <div class="image">
+                        <img src="images/gibbes.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Gibbes Court Bistro</h3>
+                        <a href="/api?location=GibbesCourtBistro">Menu</a>
+                    </div>
+                </div>
+                <div class="dine-card">
+                    <div class="image">
+                        <img src="images/pavil.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>The Pavilion</h3>
+                        <a href="/api?location=ThePavilion">Menu</a>
+                    </div>
+                </div>
+                <div class="dine-card">
+                    <div class="image">
+                        <img src="images/gamecockpark.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Gamecock Park</h3>
+                        <a href="/api?location=GamecockPark">Menu</a>
+                    </div>
+                </div>
+                <div class="dine-card">
+                    <div class="image">
+                        <img src="images/ctjpg.jpeg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Community Table</h3>
+                        <a href="/api?location=CommunityTable">Menu</a>
+                    </div>
+                </div>
+                <div class="dine-card">
+                    <div class="image">
+                        <img src="images/honey.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Honeycomb Cafe</h3>
+                        <a href="/api?location=HoneycombCafe">Menu</a>
+                    </div>
+                </div>
+                <div class="dine-card">
+                    <div class="image">
+                        <img src="images/fresh.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Fresh Greenes</h3>
+                        <a href="/api?location=FreshGreenes">Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            try {
+                navigator.serviceWorker.register('serviceWorker.js');
+            }
+            catch (e) {
+                console.log('SW registration failed');
+            }
+        }
+    </script>
+</body>
+
+</html>

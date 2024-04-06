@@ -1,0 +1,88 @@
+:root{
+    --bg-color: #E3C292;
+}
+
+
+a {
+    display:block;
+    padding: 3px 12px;
+    margin:10px;
+    border: solid black 2px;
+    border-radius:5px;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s background-color;
+}
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.diningHalls{
+    position: relative;
+    padding: var(--section-padding) 0;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 75rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.dine-card{
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: var(--bg-color-2);
+    height: 265px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    transition: 0.3s background-color;
+}
+
+.dine-card:hover{
+    transform: scale(1.1);
+}
+
+
+.image{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 105%;
+}
+
+.desc{
+    padding: 1.1rem 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc h3{
+    font-size: .95rem;
+    color: var(--heading-color);
+    font-weight: 600;
+    text-transform: capitalize;
+}
