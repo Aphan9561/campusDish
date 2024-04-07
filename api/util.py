@@ -218,7 +218,7 @@ DEFAULT_PRICES = {
 
 # Default opening and closing times
 # TODO: Might implement a class to determine default open/close depending on day
-DEFAULT_OPEN = 715
+DEFAULT_OPEN = 700
 DEFAULT_CLOSE = 2200
 
 

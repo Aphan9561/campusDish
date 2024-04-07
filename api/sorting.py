@@ -1,21 +1,27 @@
 ORDERINGS = [
-    'Home',# anteatery main dish
-    'Oven',# anteatery pizza
-    'Fire And Ice Round Grill',# anteatery main dish 2
-    'Grubb / Mainline',# brandywine main dish
-    'Compass',# brandywine main dish 2
-    'Hearth/Pizza',# brandywine pizza
-    'Deli',# anteatery sandwiches
-    'The Farm Stand / Deli',
-    'Crossroads',# brandywine 3rd entree
-    'Sizzle Grill',# anteatery burgers
-    'Ember/Grill',# brandywine burgers
-    'Vegan',# both vegan
-    'Bakery',# anteatery dessert
-    'Honeycakes/Bakery',# brandywine dessert
-    'Soups',# both soup
-    "Farmer's Market",# anteatery salad
-    'The Farm Stand / Salad Bar'# brandywine salad
+    'Home Line',
+    'Oven',
+    'Fire And Ice',
+    'Pasta',
+    'Global Exchange',
+    'Pizza',
+    'True Balance',
+    'Deli',
+    'Sandwich Lab',
+    'Global Kitchen',
+    'Under the Hood',
+    'Main Ingredient',
+    'Trattoria',
+    'Greens & Grains',
+    'Waffle Station',
+    'Grill/Fryer',
+    'Grill',
+    'Vegan',
+    'Bakery',
+    'One World',
+    'Soups',
+    "Farmer's Market",
+    'Salad Bar'
 ]
 
 def station_ordering_key(station_name: str) -> int:
