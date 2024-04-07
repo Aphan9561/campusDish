@@ -249,8 +249,8 @@ NUTRITION_PROPERTIES = (
 # meals can be referred to by their id or period id alias
 # TODO: there might be a better way to implement this
 MEAL_TO_PERIOD = {
-    0: (49, 'breakfast'),
-    1: (106, 'lunch'),
+    0: (2719, 'breakfast'),
+    1: (2720, 'lunch'),
     2: (2721, 'dinner'),
     3: (2758, 'brunch')
 }
