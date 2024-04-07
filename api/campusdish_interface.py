@@ -118,10 +118,10 @@ def get_schedule_data(restaurant: str) -> dict:
         }
         if day_of_week >= 4: # if friday or later, there's no latenight
             schedule["dinner"]["end"] = 2000
-            if day_of_week >= 5: # if it's the weekend, lunch is brunch, and breakfast starts later
-                schedule["brunch"] = schedule["lunch"]
-                del schedule["lunch"]
-                schedule["breakfast"]["start"] = 900
+            # if day_of_week >= 5: # if it's the weekend, lunch is brunch, and breakfast starts later
+            #     schedule["brunch"] = schedule["lunch"]
+            #     del schedule["lunch"]
+            #     schedule["breakfast"]["start"] = 900
         return schedule
 
 
