@@ -2,7 +2,15 @@
 
 This is the backend to a project for CockyHacks - a UofSC hackaton
 
-## To test:
+## Frontend repo link
+
+https://github.com/madelinetharp/campusdish_frontend
+
+## Frontend website
+
+https://campusdish-frontend.vercel.app/
+
+## To test web scraping:
 
 1. Clone repo
 2. Run this in terminal 
